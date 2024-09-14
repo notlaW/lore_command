@@ -24,3 +24,4 @@ repo-login: ## Auto login to AWS-ECR unsing aws-cli
 push: # Push the container
 	@echo 'lore command to repo'
 	docker push 381492125334.dkr.ecr.us-west-2.amazonaws.com/lore_command:latest
+
